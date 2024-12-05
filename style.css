@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-image: url(./photos/lovepik-black-gradient-low-polygon-background-image_401740830.jpg);
+    background-color: rgba(0,0,0,0.5);
     padding: 20px;
     box-shadow: 0px 4px 7px 4px rgb(22, 22, 22);
     position: fixed;
