@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./photos/lovepik-black-gradient-low-polygon-background-image_401740830.jpg);
+    padding: 20px;
+    box-shadow: 0px 4px 7px 4px rgb(22, 22, 22);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo h1 {
+    border-bottom: 4px solid rgb(255, 208, 0);
+    width: 175px;
+    border-radius: 2px;
+    border-bottom-right-radius: 18px;border-bottom-left-radius: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(255, 208, 0);
+}
+
+nav ul {
+    display: flex;
+    margin-top: 8px;
+    margin-right: 46px;
+}
+
+ul a {
+    margin-inline: 31px;
+    text-decoration: none;
+    color: white;
+    margin-top: 6px;
+    cursor: pointer;
+
+}
+
+nav ul a:hover {
+    border-bottom: 2px solid rgb(255, 208, 0);
+    font-weight: 600;
+    color: rgb(255, 208, 0);
+}
+
+ul button {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(255, 208, 0);
+    border: none;
+    font-size: 18px;
+    outline: none;
+    color: black;
+    border-radius: 2px;
+}
+
+ul button:hover {
+    border: 2px solid rgb(255, 208, 0);
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
