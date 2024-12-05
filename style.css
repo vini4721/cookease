@@ -12,8 +12,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0,0,0,0.5);
-    padding: 20px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 5px;
     position: fixed;
     top: 0%;
     width: 100%;
@@ -22,16 +22,19 @@ nav {
 
 .logo {
     margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .logo img {
-    height: 5vh;
+    height: 7vh;
     box-sizing: border-box;
+    padding: 2px;
 }
 
 nav ul {
     display: flex;
-    margin-top: 8px;
+    margin-top: 15px;
     margin-right: 46px;
 }
 
@@ -46,8 +49,10 @@ ul a {
 
 nav ul a:hover {
     border-bottom: 2px solid rgb(255, 208, 0);
-    font-weight: 600;
+    /* font-weight: 600; */
     color: rgb(255, 208, 0);
+    transition: 0.2s ease-in
+
 }
 
 ul button {
@@ -59,6 +64,7 @@ ul button {
     outline: none;
     color: black;
     border-radius: 20px;
+    
 }
 
 ul button:hover {
@@ -66,6 +72,7 @@ ul button:hover {
     background-color: transparent;
     cursor: pointer;
     color: white;
+    transition: 0.2s ease-in;
 }
 .background-video{
     position: absolute; 
@@ -74,6 +81,6 @@ ul button:hover {
     width: 100vw;
     height: 100vh; 
     object-fit: cover;
-    z-index: -1;
-    opacity: 0.3;
+    z-index: -10;
+    opacity: 0.5;
 }
