@@ -4,6 +4,10 @@
     padding: 0%;
 }
 
+.container{
+height: 100vh; display: flex;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -75,7 +79,7 @@ ul button:hover {
     transition: 0.2s ease-in;
 }
 .background-video{
-    position: absolute; 
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100vw;
@@ -84,3 +88,4 @@ ul button:hover {
     z-index: -10;
     opacity: 0.5;
 }
+
