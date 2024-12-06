@@ -77,6 +77,29 @@ ul button:hover {
     color: white;
     transition: 0.2s ease-in;
 }
+
+#main_logo{
+    font-size: 200px;
+    margin-top:35vh;
+    margin-left: 28vw;
+    text-shadow: 7px 7px 5px rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: fadeiN 6s;
+}
+#slog{
+    font-size: 60px;
+    margin-top: 1vh;
+    margin-left: 29vw;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    animation: fadeiN 6s;
+
+}
+
+@keyframes fadeiN{
+    0%{opacity: 0;}
+    100%{opacity: 100%;}
+}
+
 .background-video{
     position: fixed; 
     top: 0;
@@ -98,6 +121,7 @@ ul button:hover {
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-around;
+    border-radius: 30px;
 }
 
 #sbc{
