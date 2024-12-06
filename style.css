@@ -84,20 +84,21 @@ ul button:hover {
     margin-left: 28vw;
     text-shadow: 7px 7px 5px rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    animation: fadeiN 6s;
+    animation: fadeiN 4s;
 }
 #slog{
     font-size: 60px;
     margin-top: 1vh;
     margin-left: 29vw;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
-    animation: fadeiN 6s;
+    animation: fadeiN 4s;
 
 }
 
 @keyframes fadeiN{
-    0%{opacity: 0;}
-    100%{opacity: 100%;}
+    0%{opacity: 0;color: rgb(255, 0, 0);}
+    50%{opacity: 50%;color: rgb(255, 213, 0);}
+    100%{opacity: 100%;color: #ffffff;}
 }
 
 .background-video{
@@ -135,10 +136,14 @@ ul button:hover {
     align-items: center;
     display: flex;
     font-size: 60px;
+    box-shadow:0 0 50px rgb(74, 74, 74);
 }
 
 #veg{
-    background-image: url(photos/veg.jpeg);background-size:cover;
+    background-image: url(photos/veg.jpeg);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
 }
 #nveg{
     background-image: url(photos/nveg.jpeg);background-size:cover;
@@ -150,38 +155,140 @@ ul button:hover {
     background-image: url(photos/bvg.jpeg);background-size:cover;
 }
 .categories p{
-    text-shadow: 3px 3px 1.5px rgb(0, 0, 0)
+    text-shadow: 3px 3px 1.5px rgb(0, 0, 0);
+    z-index: 10;
+}
+
+#veg{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/veg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    
+}
+#vegvid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#veg:hover #vegvid{
+    opacity: 1;
+}
+#veg:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
 }
 #veg:hover{
-    cursor: pointer;
-    background: url(videos/veg.mp4);
-    background-size:cover;
     height: 400px;
     width: 400px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
 
+#nveg{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/nveg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    
+}
+#nvegvid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#nveg:hover #nvegvid{
+    opacity: 1;
+}
+#nveg:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
 }
 #nveg:hover{
-    cursor: pointer;
-    background: url(videos/nveg.mp4);
-    background-size:cover;
     height: 400px;
     width: 400px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in;
+    cursor: pointer;
 }
-#sweets:hover{
-    cursor: pointer;
-    background: url(videos/sweet.mp4);
+
+#sweet{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/sweet.jpeg);
     background-size: cover;
-    height: 400px;
-    width: 400px;
-    transition: 0.3s ease-in-out;
+    background-position: center;
+    height: 350px;
+    width: 350px;
 }
-#drinks:hover{
+#sweetvid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#sweet:hover #sweetvid{
+    opacity: 1;
+}
+#sweet:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
     cursor: pointer;
-    background: url(videos/drink.mp4);
-    background-size: cover;
+}
+#sweet:hover{
     height: 400px;
     width: 400px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#drink{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/bvg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+}
+#drinkvid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#drink:hover #drinkvid{
+    opacity: 1;
+}
+#drink:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#drink:hover{
+    height: 400px;
+    width: 400px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
 }
