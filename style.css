@@ -116,7 +116,7 @@ ul button:hover {
 }
 
 .main_container{
-    height: 50vh;
+    height: 55vh;
     width: 99vw;
     background-color: rgba(0,0,0,0.7);
     display: flex; 
@@ -303,7 +303,7 @@ ul button:hover {
 
 
 .main_container1{
-    height: 50vh;
+    height: 55vh;
     width: 99vw;
     background-color: rgba(0,0,0,0.7);
     display: flex; 
@@ -484,3 +484,112 @@ ul button:hover {
     transition: 0.2s ease-in;
     cursor: pointer;
 }
+
+
+/* start of login form */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.modal:target {
+    display: block; 
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto; 
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.modal-content h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+label {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid rgba(211, 211, 211, 0.8);
+    color: white;
+    padding: 10px 15px;
+    width: 18vw;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 18px;
+}
+
+input:focus {
+    border-bottom: 3px solid rgb(255, 208, 0);
+}
+
+button {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(211, 211, 211, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background: rgba(255, 208, 0, 0.2);
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+/* end of login form */

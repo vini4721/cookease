@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="top">
         <nav>
             <div class="logo">
                 <img src="./photos/logo.jpg" alt="logo">
             </div>
 
             <ul>
-                <a id = "home" href="#home">Home</a>
-                <a id="foods" href="#food">Food</a>
-                <a id="dishes" href="#dish">Best Dishes</a>
-                <a id="orders" href="#order">Contact</a>
+                <a id = "home" href="#top">Home</a>
+                <a id="categories" href="#slog">Categories</a>
+                <a id="dishes" href="#best">Best Dishes</a>
+                <a id="orders" href="#abtModal">Contact</a>
                 <a href="#loginModal" id="log">Log In</a>
             </ul>
         </nav>
@@ -94,7 +94,20 @@
         </div>
     
     </div>
-<p>hello</p>
-     
+
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div> 
+    </div>
 </body>
 </html>
