@@ -18,7 +18,7 @@
                 <a id="foods" href="#food">Food</a>
                 <a id="dishes" href="#dish">Best Dishes</a>
                 <a id="orders" href="#order">Contact</a>
-                <button id="log">Log In</button>
+                <a href="#loginModal" id="log">Log In</a>
             </ul>
         </nav>
         
@@ -88,6 +88,20 @@
                 <source src="videos/lassi.mp4">
             </video>
             <p>Lassi</p>
+        </div>
+    </div>
+
+     <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Submit</button>
+            </form>
         </div>
     </div>
 </body>
