@@ -16,12 +16,13 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0,0,0,0.7);
+    background-color:black;
     padding: 5px;
     position: fixed;
     top: 0%;
     width: 100%;
     font-size: 25px;
+    z-index: 100;
 }
 
 .logo {
@@ -81,7 +82,7 @@ ul button:hover {
 #main_logo{
     font-size: 200px;
     margin-top:35vh;
-    margin-left: 28vw;
+    margin-left:28vw;
     text-shadow: 7px 7px 5px rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     animation: fadeiN 4s;
@@ -113,7 +114,7 @@ ul button:hover {
 }
 
 .main_container{
-    height: 91vh;
+    height: 50vh;
     width: 99vw;
     background-color: rgba(0,0,0,0.7);
     display: flex; 
@@ -137,23 +138,27 @@ ul button:hover {
     display: flex;
     font-size: 60px;
     box-shadow:0 0 50px rgb(74, 74, 74);
+    margin-top:180px;
 }
 
-#veg{
-    background-image: url(photos/veg.jpeg);
-    background-size:cover;
-    position: relative;
-    overflow: hidden;
+.main3{
+    display: flex;
+    margin-top: 30px;
+    position:absolute;
 }
-#nveg{
-    background-image: url(photos/nveg.jpeg);background-size:cover;
+#cat{
+    font-size: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
-#sweets{
-    background-image: url(photos/sweet.jpeg);background-size:cover;
+#cat:hover{
+    color: yellow;
+    transition: 0.3s ease-in;
+    cursor: pointer;
 }
-#drinks{
-    background-image: url(photos/bvg.jpeg);background-size:cover;
-}
+
 .categories p{
     text-shadow: 3px 3px 1.5px rgb(0, 0, 0);
     z-index: 10;
@@ -287,6 +292,191 @@ ul button:hover {
     cursor: pointer;
 }
 #drink:hover{
+    height: 400px;
+    width: 400px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+
+
+.main_container1{
+    height: 50vh;
+    width: 99vw;
+    background-color: rgba(0,0,0,0.7);
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.main2{
+    display: flex;
+    margin-top: 30px;
+    position:absolute;
+}
+
+.bestdish{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+    box-shadow:0 0 50px rgb(74, 74, 74);
+    position: absolute;
+    margin-top:180px;
+}
+
+#best{
+    font-size: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#best:hover{
+    color: yellow;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.bestdish p{
+    text-shadow: 3px 3px 1.5px rgb(0, 0, 0);
+    z-index: 10;
+    text-align: center;
+}
+
+#burger{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/burger.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+}
+#burgervid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#burger:hover #burgervid{
+    opacity: 1;
+}
+#burger:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#burger:hover{
+    height: 400px;
+    width: 400px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#tchick{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/tchick.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+}
+#tchickvid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#tchick:hover #tchickvid{
+    opacity: 1;
+}
+#tchick:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#tchick:hover{
+    height: 400px;
+    width: 400px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#rasmalai{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/rasmalai.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+}
+#rasmalaivid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#rasmalai:hover #rasmalaivid{
+    opacity: 1;
+}
+#rasmalai:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#rasmalai:hover{
+    height: 400px;
+    width: 400px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#lassi{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/lassi.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+}
+#lassivid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#lassi:hover #lassivid{
+    opacity: 1;
+}
+#lassi:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#lassi:hover{
     height: 400px;
     width: 400px;
     transition: 0.2s ease-in;
