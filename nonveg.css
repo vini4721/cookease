@@ -71,8 +71,8 @@ header h1 {
 
 
 .content p {
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-size: 1.4em;
+    line-height: 2;
 }
 
 
@@ -114,4 +114,7 @@ header h1 {
     .content .text {
         text-align: center;
     }
+}
+strong{
+    color: rgb(247, 224, 108);
 }
