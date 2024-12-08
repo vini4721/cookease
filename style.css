@@ -49,7 +49,6 @@ ul a {
     margin-inline: 30px;
     text-decoration: none;
     color: white;
-    margin-top: 6px;
     cursor: pointer;
 
 }
@@ -84,7 +83,7 @@ ul button:hover {
 #main_logo{
     font-size: 200px;
     margin-top:35vh;
-    margin-left:28vw;
+    margin-left:27vw;
     text-shadow: 7px 7px 5px rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     animation: fadeiN 4s;
@@ -92,7 +91,7 @@ ul button:hover {
 #slog{
     font-size: 60px;
     margin-top: 1vh;
-    margin-left: 29vw;
+    margin-left: 28vw;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
     animation: fadeiN 4s;
 
@@ -120,9 +119,9 @@ ul button:hover {
     width: 99vw;
     background-color: rgba(0,0,0,0.7);
     display: flex; 
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 30px;
 }
@@ -131,16 +130,14 @@ ul button:hover {
     margin-left: 43vw;margin-top: 50px;display: inline-flex;
 }
 .categories{
-    height: 350px;
-    width: 350px;
     border-radius: 50%;
     margin-top: 100px;
     justify-content:center;
     align-items: center;
     display: flex;
     font-size: 60px;
-    box-shadow:0 0 50px rgb(74, 74, 74);
-    margin-top:180px;
+    box-shadow:0 0 50px rgb(104, 104, 104);
+    margin-top:200px;
 }
 
 .main3{
@@ -172,8 +169,8 @@ ul button:hover {
     background-image: url(photos/veg.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
     
 }
 #vegvid{
@@ -194,8 +191,8 @@ ul button:hover {
     cursor: pointer;
 }
 #veg:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -206,8 +203,8 @@ ul button:hover {
     background-image: url(photos/nveg.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
     
 }
 #nvegvid{
@@ -228,8 +225,8 @@ ul button:hover {
     cursor: pointer;
 }
 #nveg:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -240,8 +237,8 @@ ul button:hover {
     background-image: url(photos/sweet.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
 }
 #sweetvid{
     top: 0;
@@ -261,8 +258,8 @@ ul button:hover {
     cursor: pointer;
 }
 #sweet:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -273,8 +270,8 @@ ul button:hover {
     background-image: url(photos/bvg.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
 }
 #drinkvid{
     top: 0;
@@ -294,8 +291,8 @@ ul button:hover {
     cursor: pointer;
 }
 #drink:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -309,7 +306,6 @@ ul button:hover {
     display: flex; 
     justify-content: center;
     margin: auto;
-    flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 30px;
     margin-top: 10px;
@@ -322,16 +318,14 @@ ul button:hover {
 }
 
 .bestdish{
-    height: 350px;
-    width: 350px;
     border-radius: 50%;
     justify-content:center;
     align-items: center;
     display: flex;
     font-size: 60px;
-    box-shadow:0 0 50px rgb(74, 74, 74);
+    box-shadow:0 0 50px rgb(120, 120, 120);
     position: absolute;
-    margin-top:180px;
+    margin-top:200px;
 }
 
 #best{
@@ -359,8 +353,8 @@ ul button:hover {
     background-image: url(photos/burger.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
 }
 #burgervid{
     top: 0;
@@ -380,8 +374,8 @@ ul button:hover {
     cursor: pointer;
 }
 #burger:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -392,8 +386,8 @@ ul button:hover {
     background-image: url(photos/tchick.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
 }
 #tchickvid{
     top: 0;
@@ -413,8 +407,8 @@ ul button:hover {
     cursor: pointer;
 }
 #tchick:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -425,8 +419,8 @@ ul button:hover {
     background-image: url(photos/rasmalai.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
 }
 #rasmalaivid{
     top: 0;
@@ -446,8 +440,8 @@ ul button:hover {
     cursor: pointer;
 }
 #rasmalai:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -458,8 +452,8 @@ ul button:hover {
     background-image: url(photos/lassi.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
 }
 #lassivid{
     top: 0;
@@ -479,12 +473,99 @@ ul button:hover {
     cursor: pointer;
 }
 #lassi:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
 
+.main_container2{
+    height: 55vh;
+    width: 99vw;
+    background-color: rgba(0,0,0,0.7);
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.chef{
+    border-radius: 30px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    color: yellow;
+    box-shadow:0 0 50px rgb(118, 118, 118);
+    position: absolute;
+    margin-top:200px;
+}
+.chef p{
+    text-shadow: 3px 3px 1.5px rgb(0, 0, 0);
+    z-index: 10;
+    padding-top: 200px;
+}
+#sk:hover{
+    height: 32vh;
+    width: 19vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#sk{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/sk.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#vikas:hover{
+    height: 32vh;
+    width: 19vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#vikas{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/vikas.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#ranveer:hover{
+    height: 32vh;
+    width: 19vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#ranveer{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/ranveer.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#kunal:hover{
+    height: 32vh;
+    width: 19vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#kunal{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/kunal.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
 
 /* start of login form */
 .modal {
