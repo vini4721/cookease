@@ -16,13 +16,16 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0,0,0,0.7);
+    background-color:black;
     padding: 5px;
     position: fixed;
     top: 0%;
     width: 100%;
     font-size: 25px;
+    z-index: 100;
 }
+
+
 
 .logo {
     margin-left: 10px;
@@ -46,7 +49,6 @@ ul a {
     margin-inline: 30px;
     text-decoration: none;
     color: white;
-    margin-top: 6px;
     cursor: pointer;
 
 }
@@ -81,7 +83,7 @@ ul button:hover {
 #main_logo{
     font-size: 200px;
     margin-top:35vh;
-    margin-left: 28vw;
+    margin-left:27vw;
     text-shadow: 7px 7px 5px rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     animation: fadeiN 4s;
@@ -89,7 +91,7 @@ ul button:hover {
 #slog{
     font-size: 60px;
     margin-top: 1vh;
-    margin-left: 29vw;
+    margin-left: 28vw;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
     animation: fadeiN 4s;
 
@@ -113,13 +115,13 @@ ul button:hover {
 }
 
 .main_container{
-    height: 91vh;
+    height: 65vh;
     width: 99vw;
     background-color: rgba(0,0,0,0.7);
     display: flex; 
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 30px;
 }
@@ -128,32 +130,35 @@ ul button:hover {
     margin-left: 43vw;margin-top: 50px;display: inline-flex;
 }
 .categories{
-    height: 350px;
-    width: 350px;
     border-radius: 50%;
     margin-top: 100px;
     justify-content:center;
     align-items: center;
     display: flex;
     font-size: 60px;
-    box-shadow:0 0 50px rgb(74, 74, 74);
+    box-shadow:0 0 50px rgb(104, 104, 104);
+    margin-top:200px;
 }
 
-#veg{
-    background-image: url(photos/veg.jpeg);
-    background-size:cover;
-    position: relative;
-    overflow: hidden;
+.main3{
+    display: flex;
+    margin-top: 30px;
+    position:absolute;
+    flex-wrap: wrap;
 }
-#nveg{
-    background-image: url(photos/nveg.jpeg);background-size:cover;
+#cat{
+    font-size: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
-#sweets{
-    background-image: url(photos/sweet.jpeg);background-size:cover;
+#cat:hover{
+    color: yellow;
+    transition: 0.3s ease-in;
+    cursor: pointer;
 }
-#drinks{
-    background-image: url(photos/bvg.jpeg);background-size:cover;
-}
+
 .categories p{
     text-shadow: 3px 3px 1.5px rgb(0, 0, 0);
     z-index: 10;
@@ -165,8 +170,8 @@ ul button:hover {
     background-image: url(photos/veg.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
     
 }
 #vegvid{
@@ -187,8 +192,8 @@ ul button:hover {
     cursor: pointer;
 }
 #veg:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -199,8 +204,8 @@ ul button:hover {
     background-image: url(photos/nveg.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
     
 }
 #nvegvid{
@@ -221,8 +226,8 @@ ul button:hover {
     cursor: pointer;
 }
 #nveg:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -233,8 +238,8 @@ ul button:hover {
     background-image: url(photos/sweet.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
 }
 #sweetvid{
     top: 0;
@@ -254,8 +259,8 @@ ul button:hover {
     cursor: pointer;
 }
 #sweet:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
 }
@@ -266,8 +271,8 @@ ul button:hover {
     background-image: url(photos/bvg.jpeg);
     background-size: cover;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 18vw;
 }
 #drinkvid{
     top: 0;
@@ -287,8 +292,558 @@ ul button:hover {
     cursor: pointer;
 }
 #drink:hover{
-    height: 400px;
-    width: 400px;
+    height: 32vh;
+    width: 19vw;
     transition: 0.2s ease-in;
     cursor: pointer;
+}
+
+
+
+.main_container1{
+    height: 65vh;
+    width: 99vw;
+    background-color: rgba(0,0,0,0.7);
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.main2{
+    display: flex;
+    margin-top: 30px;
+    position:absolute;
+}
+
+.bestdish{
+    border-radius: 50%;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+    box-shadow:0 0 50px rgb(120, 120, 120);
+    position: absolute;
+    margin-top:200px;
+}
+
+#best{
+    font-size: 90px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#best:hover{
+    color: yellow;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.bestdish p{
+    text-shadow: 3px 3px 1.5px rgb(0, 0, 0);
+    z-index: 10;
+    text-align: center;
+}
+
+#burger{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/burger.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#burgervid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#burger:hover #burgervid{
+    opacity: 1;
+}
+#burger:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#burger:hover{
+    height: 32vh;
+    width: 19vw;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#tchick{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/tchick.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#tchickvid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#tchick:hover #tchickvid{
+    opacity: 1;
+}
+#tchick:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#tchick:hover{
+    height: 32vh;
+    width: 19vw;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#rasmalai{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/rasmalai.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#rasmalaivid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#rasmalai:hover #rasmalaivid{
+    opacity: 1;
+}
+#rasmalai:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#rasmalai:hover{
+    height: 32vh;
+    width: 19vw;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#lassi{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/lassi.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#lassivid{
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 100%;
+    width: 100%;
+}
+#lassi:hover #lassivid{
+    opacity: 1;
+}
+#lassi:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+#lassi:hover{
+    height: 32vh;
+    width: 19vw;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.main_container2{
+    height: 65vh;
+    width: 99vw;
+    background-color: rgba(0,0,0,0.7);
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.chef{
+    border-radius: 30px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    color: yellow;
+    box-shadow:0 0 50px rgb(118, 118, 118);
+    position: absolute;
+    margin-top:200px;
+}
+.chef p{
+    text-shadow: 3px 3px 1.5px rgb(0, 0, 0);
+    z-index: 10;
+    padding-top: 200px;
+}
+#sk:hover{
+    height: 32vh;
+    width: 19vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#sk{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/sk.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#vikas:hover{
+    height: 32vh;
+    width: 19vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#vikas{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/vikas.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#ranveer:hover{
+    height: 32vh;
+    width: 19vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#ranveer{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/ranveer.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+#kunal:hover{
+    height: 32vh;
+    width: 19vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#kunal{
+    position: relative;
+    overflow: hidden;
+    background-image: url(photos/kunal.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 18vw;
+}
+
+/* start of login form */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.modal:target {
+    display: block; 
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto; 
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.modal-content h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+label {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid rgba(211, 211, 211, 0.8);
+    color: white;
+    padding: 10px 15px;
+    width: 18vw;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 18px;
+}
+
+input:focus {
+    border-bottom: 3px solid rgb(255, 208, 0);
+}
+
+button {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(211, 211, 211, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background: rgba(255, 208, 0, 0.2);
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+/* end of login form */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .content img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .content .text {
+        text-align: center;
+    }
+}
+@media (max-width: 1200px) {
+    #main_logo {
+        font-size: 150px;
+        margin-top: 30vh;
+        margin-left: 20vw;
+    }
+
+    #slog {
+        font-size: 50px;
+        margin-left: 22vw;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    ul a {
+        margin-inline: 15px;
+        font-size: 18px;
+    }
+
+    ul button {
+        width: 80px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    #veg, #nveg, #sweet, #drink, #burger, #tchick, #rasmalai, #lassi {
+        height: 25vh;
+        width: 15vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #main_logo {
+        font-size: 70px;
+        margin-top: 20vh;
+        margin-left: 10vw;
+    }
+
+    #slog {
+        font-size: 20px;
+        margin-left: 12vw;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
+
+    ul a {
+        font-size: 16px;
+        margin-inline: 10px;
+    }
+
+    ul button {
+        width: 70px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    #veg, #nveg, #sweet, #drink, #burger, #tchick, #rasmalai, #lassi {
+        height: 20vh;
+        width: 12vw;
+    }
+
+    .main_container, .main_container1, .main_container2 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 280px) {
+    #main_logo {
+        font-size: 50px;
+        margin-top: 15vh;
+        margin-left: 5vw;
+    }
+
+    #slog {
+        font-size: 25px;
+        margin-left: 5vw;
+    }
+
+    ul a {
+        font-size: 14px;
+        margin-inline: 5px;
+    }
+
+    ul button {
+        width: 60px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    #veg, #nveg, #sweet, #drink, #burger, #tchick, #rasmalai, #lassi {
+        height: 15vh;
+        width: 10vw;
+    }
+}@media (max-width: 1200px) {
+    .bestdish, .chef {
+        font-size: 30px;
+        padding: 15px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .bestdish, .chef {
+        font-size: 24px;
+        padding: 10px;
+        width: 90%; 
+        margin: 10px auto;
+        flex-direction: column; 
+    }
+
+    .main_container, .main_container1, .main_container2 {
+        flex-direction: column;
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .bestdish, .chef {
+        font-size: 18px;
+        padding: 8px;
+        width: 100%; 
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 280px) {
+    .bestdish, .chef {
+        font-size: 14px;
+        padding: 5px;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 768px) {
+    .bestdish, .chef {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .bestdish p, .chef p {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #burger, #tchick, #rasmalai, #lassi, #sk, #vikas, #ranveer, #kunal {
+        height: 25vh;
+        width: 40vw; 
+        margin: 10px auto; 
+    }
 }
