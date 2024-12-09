@@ -566,6 +566,10 @@ ul button:hover {
     height: 30vh;
     width: 18vw;
 }
+.cheflink{
+    color: #ffff00;
+    text-shadow: 2px 2px#000000;
+}
 
 /* start of login form */
 .modal {
