@@ -569,6 +569,7 @@ ul button:hover {
 .cheflink{
     color: #ffff00;
     text-shadow: 2px 2px#000000;
+    margin-top: 15vh;
 }
 
 /* start of login form */
