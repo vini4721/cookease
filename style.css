@@ -126,6 +126,7 @@ nav ul a:hover {
     margin: auto;
     justify-content: space-around;
     border-radius: 30px;
+    margin-bottom: 4vh;
 }
 
 
@@ -145,7 +146,7 @@ nav ul a:hover {
     position:absolute;
 }
 #cat{
-    font-size: 7vw;
+    font-size: 6vw;
     margin-left:auto;
     margin-right:auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -310,6 +311,7 @@ nav ul a:hover {
     justify-content: space-around;
     border-radius: 30px;
     margin-top: 1vh;
+    margin-bottom: 4vh;
 }
 
 .main2{
@@ -329,7 +331,7 @@ nav ul a:hover {
 }
 
 #best{
-    font-size: 7vw;
+    font-size: 6vw;
     margin-left:auto;
     margin-right:auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -492,6 +494,7 @@ nav ul a:hover {
     justify-content: space-around;
     border-radius: 30px;
     margin-top: 1vh;
+    margin-bottom: 4vh;
 }
 .chef{
     border-radius: 30px;
